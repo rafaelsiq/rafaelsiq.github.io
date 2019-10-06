@@ -11,11 +11,13 @@ function cadastrar(){
         'genero':genero,
         'data':data
     }
-    objetoDaStorage(localStorage.getItem(key="rafael"));
-    alert(objeto);
+    localStorage.setItem(key="nome", objeto);
 }
-//{"nome":"rafael siqueira de freitas","peso":"12321","altura":"312312","genero":"Masculino","data":"1000-10-10"}
 
+
+
+
+// pra recuperar os dados salvos na storage
 function objetoDaStorage(dado)
 {
     
@@ -26,8 +28,7 @@ function objetoDaStorage(dado)
 function splitString(stringToSplit) {
     stringToSplit = stringToSplit.replace('{','');
     stringToSplit = stringToSplit.replace('}','');
-//"nome":"rafael siqueira de freitas","peso":"12321","altura":"312312","genero":"Masculino","data":"1000-10-10"
-
+//{"nome":"rafael siqueira de freitas","peso":"12321","altura":"312312","genero":"Masculino","data":"1000-10-10"}
     var arrayOfStrings = stringToSplit.split(':',',');
     alert(arrayOfStrings);
     return arrayOfStrings;
