@@ -1,0 +1,14 @@
+{
+  "name": "ICM Calculadora",
+  "short_name": "IMC",
+  "start_url": ".",
+  "display": "standalone",
+  "description": "Calculador IMC",
+  "icons": [
+    {
+      "src": "images/imc.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    }
+  ]
+}
