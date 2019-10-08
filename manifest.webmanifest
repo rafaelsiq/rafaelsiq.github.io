@@ -16,8 +16,8 @@
       "type": "image/png"
     },
      {
-      "src": "images/imc_48x48.png",
-      "sizes": "48x48",
+      "src": "images/imc_144x144.png",
+      "sizes": "144x144",
       "type": "image/png"
     },
     {
