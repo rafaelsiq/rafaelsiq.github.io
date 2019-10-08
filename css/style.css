@@ -1,31 +1,39 @@
+.nav {
+  background-color: #00acc1;
+}
+.nav a {
+  color: #ffffff;
+}
+input[type="text"]:disabled {
+  background-color: #ffffff;
+}
 @media only screen and (max-width: 768px) {
-    .card-title{
-        font-size: 18px;
-    }
-    input[type=text]{   
-        font-size: 11px;
-    }
+  .card-title {
+    font-size: 18px;
+  }
+  input[type="text"] {
+    font-size: 11px;
+  }
 }
 @media only screen and (max-width: 480px) {
-    .nav-item{
-        font-size: 12px;
-	}
-	.card-title{
-        font-size: 16px;
-	}
-	 p{
-        font-size: 11px;
-    }
-   
+  .nav-item {
+    font-size: 12px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  p {
+    font-size: 11px;
+  }
 }
 @media only screen and (max-width: 280px) {
-    p{
-        font-size: 11px;
-    }
-     label{
-        font-size: 11px;
-    }
-   input[type=text]{   
-        font-size: 11px;
-    }
+  p {
+    font-size: 11px;
+  }
+  label {
+    font-size: 11px;
+  }
+  input[type="text"] {
+    font-size: 11px;
+  }
 }
