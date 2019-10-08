@@ -1,13 +1,33 @@
 {
   "name": "ICM Calculadora",
   "short_name": "IMC",
-  "start_url": ".",
+  "theme_color": "#DCDCDC",
+  "background_color": "#DCDCDC",
+  "description": "O aplicativo que calcula seu IMC.",
   "display": "standalone",
-  "description": "Calculador IMC",
+  "scope": "/",
+  "start_url": ".",
+  "lang": "pt-BR",
+  "orientation": "any",
   "icons": [
     {
       "src": "images/imc.png",
-      "sizes": "80x80",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+     {
+      "src": "images/imc_48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "images/imc_48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "images/imc_192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
