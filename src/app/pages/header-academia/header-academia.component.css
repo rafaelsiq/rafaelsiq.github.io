@@ -1,0 +1,25 @@
+.header-academia{
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+
+
+}
+.header-academia-nome {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-academia-professor {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.header-academia-objetivo {
+    display: flex;
+    justify-content: space-between;
+}

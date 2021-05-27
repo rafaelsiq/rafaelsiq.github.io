@@ -1,0 +1,14 @@
+.ficha {
+    display: flex;
+    max-height: max-content;
+    width: auto;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.ficha div {
+    display: flex;
+}
