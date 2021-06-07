@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Datas } from '../datas';
 
 @Component({
   selector: 'app-ficha-contents',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ficha-contents.component.css']
 })
 export class FichaContentsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  fichas = new Datas().fich();
+  exercicios = new Datas().exer();
+  programa = new Datas().programaA();
+  
+  constructor() { 
+    this.exercicios = new Datas().exer();
+  }
+    ngOnInit(): void {
   }
 
 }

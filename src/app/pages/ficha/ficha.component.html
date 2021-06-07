@@ -1,6 +1,7 @@
-<div class="ficha">
+<div class="ficha"
+*ngFor = "let ficha of fichas">
     <div>
-        <h2>Ficha A</h2>
+        <h2>Ficha {{ficha.id}}</h2>
         <span matBadge="14" matBadgeOverlap="false"></span>
     </div><button mat-button>
         <img src="../../../assets/exercicios/chevron_right_black_24dp.svg" alt="icon">

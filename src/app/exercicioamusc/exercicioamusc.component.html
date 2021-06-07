@@ -1,0 +1,10 @@
+<div
+*ngFor = "let exercicio of musculacao">
+<mat-card class="mat-card-exercicios">
+    <mat-card-title class="mat-card-title-exercicios">{{exercicios[exercicio].nome}}</mat-card-title> 
+    <span [matBadge]=exercicios[exercicio].maquina?.toString() matBadgeOverlap="false"><img [src]="imagem +(exercicio) + imagemFim"></span>
+    <mat-card-actions class="mat-card-actions-exercicios"><button mat-button>Iniciar</button><button mat-button>Parar</button></mat-card-actions>
+    <mat-card-footer> <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+    </mat-card-footer>
+</mat-card>
+</div>

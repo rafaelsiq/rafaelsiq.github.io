@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
-
+import { Datas } from '../datas'
 @Component({
   selector: 'app-header-academia',
   templateUrl: './header-academia.component.html',
@@ -8,23 +7,17 @@ import { DataService } from '../data.service';
 })
 
 export class HeaderAcademiaComponent implements OnInit {
-  dados: {};
-  dadosService: DataService;
-
-  constructor(_dadosService : DataService) {
-    this.dadosService = _dadosService;
-    this.dados = {}
-   }
-
-   Nome = "Rafael Siqueira de Freitas"
-   Professor = "Jose"
-   Objetivo = "Emagrecimento"
-
-  ngOnInit(): void {    
-    this.dados = this.dadosService.getDados()
-    console.log(this.dados)
+  fichas = new Datas().head();
+  constructor() {
   }
-  
-  buscarDados = function () {
+  Nome = ""
+  Professor = ""
+  Objetivo = ""
+
+  ngOnInit(): void {
+    this.Nome = this.fichas.head.nome;
+    this.Professor = this.fichas.head.professor;
+    this.Objetivo = this.fichas.head.Objetivo[0] + " - " + this.fichas.head.Objetivo[1];
   }
+
 }
