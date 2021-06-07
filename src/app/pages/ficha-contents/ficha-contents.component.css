@@ -1,0 +1,26 @@
+h1 {
+
+    text-align: center;
+}
+h4 {
+    margin-top: 40px;
+}
+
+.footer-ficha {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: auto;
+    padding-bottom: 1px;
+}
+.ficha-contents-down-group{
+margin-bottom: auto;
+}
+.ficha-contents-header-fichas{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+<div class="ficha-contents">
+<h1>Ficha A</h1>
+  <div class="ficha-contents-header-fichas"
+  >
+  <button mat-button color="accent"> Voltar</button></div>
+  <div class="ficha-contents-down">
+    <mat-tab-group class="ficha-contents-down">
+      <mat-tab [label]=programa[0].titulo>
+        <h4></h4>
+        <app-exercicioaprep></app-exercicioaprep>
+      </mat-tab>
+      <mat-tab [label]="programa[1].titulo">
+        <h4></h4>
+        <app-exercicioamusc></app-exercicioamusc>
+      </mat-tab>
+      <mat-tab [label]="programa[2].titulo">
+        <h4></h4>
+        <app-exercicioacard></app-exercicioacard>
+      </mat-tab>
+      <mat-tab [label]="programa[3].titulo">
+        <h4></h4>
+        <app-exercicioaalong></app-exercicioaalong>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>

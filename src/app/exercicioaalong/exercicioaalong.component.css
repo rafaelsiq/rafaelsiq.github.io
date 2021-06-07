@@ -1,0 +1,28 @@
+.mat-card-exercicios {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mat-card-exercicios img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.mat-card-actions-exercicios {
+    position: relative;
+    display: flex;
+
+}
+.mat-card-actions-exercicios h2{
+    text-align: center;
+    
+    align-items: center;
+    width: auto;
+}
+
+.mat-card-title-exercicios{
+    text-align: center;
+}
